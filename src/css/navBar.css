@@ -1,0 +1,19 @@
+.navBar {
+  height: 50px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+}
+.navContainer {
+  display: flex;
+  height: 50px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 50px;
+}
+.navBarView {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}

@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* weekly habit */
+.weeklyHabitContainer {
+  display: flex;
+
+  justify-content: center;
+}
+.weeklyHabitRow {
+  display: flex;
+}
+.weeklyHabitBox {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  justify-content: center;
+}
+/* weekly mark detail */
+
+.hand {
+  cursor: pointer;
+}
+.item {
+  list-style-type: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-color: #6c757d;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.weeklyHabitDropDown {
+  margin-top: 35px;
+}
+.dropdown-item {
+  padding: 10px 3px;
+}
+
+.nabBarTitle {
+  font-size: larger;
+  font-weight: 800;
+}
+
+@media only screen and (min-width: 600px) {
+  .newHabitInput {
+    width: 400px;
+  }
+  .habitCard {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .footerButtonPopup {
+    margin-left: 50%;
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .newHabitInput {
+    width: 800px;
+  }
+  .habitCard {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .footerButtonPopup {
+    margin-left: 70%;
+    margin-right: 40px;
+  }
+}

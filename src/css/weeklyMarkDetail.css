@@ -1,0 +1,26 @@
+.weaklyMarkDetail {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+}
+.detailContainer {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+.complete {
+  background-color: aqua;
+}
+.notComplete {
+  background-color: red;
+}
+.markDetail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

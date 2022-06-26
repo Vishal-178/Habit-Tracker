@@ -1,0 +1,15 @@
+.WeeklyHeadContainer {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+.weeklyHeadBox {
+  display: flex;
+  border: 2px solid black;
+  box-shadow: 0px 1px 3px;
+  box-shadow: inset;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: 700;
+}

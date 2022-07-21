@@ -1,4 +1,4 @@
-## Hosted Link --
+## Hosted Link -- https://habit-tracker-b8092.web.app/
 
 # Habit tracker React app
 

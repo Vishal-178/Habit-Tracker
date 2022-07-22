@@ -1,5 +1,9 @@
 ## Hosted Link -- https://habit-tracker-b8092.web.app/
 
+# Video
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vvrH65JLvoY/0.jpg)](https://www.youtube.com/watch?v=vvrH65JLvoY)
+
 # Habit tracker React app
 
 ### Description
